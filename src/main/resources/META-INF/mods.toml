@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="extraordinaryblocks"
+version="${file.jarVersion}"
+displayName="Extraordinary Blocks"
+#logoFile=""
+authors="El_Tigere"
+description='''
+'''
+
+[[dependencies.extraordinaryblocks]]
+   modId="forge"
+   mandatory=true
+   versionRange="[47,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.extraordinaryblocks]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.20.1,1.21)"
+   ordering="NONE"
+   side="BOTH"
