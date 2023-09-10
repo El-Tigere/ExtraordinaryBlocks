@@ -20,6 +20,9 @@ public class ExtraordinaryBlocks {
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
+
+        // register mod content
+        BlockRegistry.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
