@@ -26,7 +26,7 @@ public class BlockRegistry {
 
     private static RegistryObject<Block> registerBlock(String name, Supplier<Block> supplier, Item.Properties itemProperties) {
         RegistryObject<Block> registryObject = BLOCKS.register(name, supplier);
-        BLOCK_ITEMS.register("black_block", () -> new BlockItem(registryObject.get(), itemProperties));
+        BLOCK_ITEMS.register(name, () -> new BlockItem(registryObject.get(), itemProperties));
         return registryObject;
     }
 }
