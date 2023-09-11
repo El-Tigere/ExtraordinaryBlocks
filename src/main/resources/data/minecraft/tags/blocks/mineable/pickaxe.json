@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "extraordinaryblocks:black_block"
+    "extraordinaryblocks:black_block",
+    "extraordinaryblocks:fog_block"
   ]
 }

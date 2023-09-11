@@ -18,6 +18,7 @@ public class BlockRegistry {
     public static final DeferredRegister<Item> BLOCK_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ExtraordinaryBlocks.MODID);
 
     public static final RegistryObject<Block> BLACK_BLOCK = registerBlock("black_block", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(1.5f, 6f)), new Item.Properties());
+    public static final RegistryObject<Block> FOG_BLOCK = registerBlock("fog_block", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_BLUE).requiresCorrectToolForDrops().strength(1.5f, 6f)), new Item.Properties());
 
     public static void register(IEventBus modEventBus) {
         BLOCKS.register(modEventBus);
