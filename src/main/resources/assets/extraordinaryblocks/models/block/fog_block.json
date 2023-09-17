@@ -1,7 +1,5 @@
 {
-  "render_type": "extraordinaryblocks:fog",
-  "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "minecraft:block/stone"
+    "particle": "minecraft:block/stone"
   }
 }
